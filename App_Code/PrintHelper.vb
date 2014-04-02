@@ -1,0 +1,59 @@
+Imports System
+Imports System.Data
+Imports System.Configuration
+Imports System.Web
+Imports System.Web.Security
+Imports System.Web.UI
+Imports System.Web.UI.WebControls
+Imports System.Web.UI.WebControls.WebParts
+Imports System.Web.UI.HtmlControls
+Imports System.IO
+Imports System.Text
+Imports System.Web.SessionState
+
+Public Class PrintHelper
+    Public Sub New()
+    End Sub
+
+    Public Shared Sub PrintWebControl(ByVal ctrl As Control)
+        PrintWebControl(ctrl, String.Empty)
+    End Sub
+
+    Public Shared Sub PrintWebControl(ByVal ctrl As Control, ByVal Script As String)
+        Dim stringWrite As StringWriter = New StringWriter()
+        Dim htmlWrite As System.Web.UI.HtmlTextWriter = New System.Web.UI.HtmlTextWriter(stringWrite)
+        If TypeOf ctrl Is WebControl Then
+            Dim w As Unit = New Unit(100, UnitType.Percentage)
+            CType(ctrl, WebControl).Width = w
+        End If
+        Dim pg As Page = New Page()
+        pg.EnableEventValidation = False
+        If Script <> String.Empty Then
+            pg.ClientScript.RegisterStartupScript(pg.GetType(), "PrintJavaScript", Script)
+        End If
+        Dim frm As HtmlForm = New HtmlForm()
+        pg.Controls.Add(frm)
+        frm.Attributes.Add("runat", "server")
+        frm.Controls.Add(ctrl)
+
+        pg.DesignerInitialize()
+        pg.RenderControl(htmlWrite)
+        Dim strHead As String
+        strHead = "<head runat='server'><title>Print</title>"
+        strHead &= "<link href='../css/print.css' rel='stylesheet' type='text/css' media ='print' />"
+        strHead &= "<link href='../css/print.css' rel='stylesheet' type='text/css' media ='screen' />"
+        ' strHead &= "<link href='../css/Style.css' rel='stylesheet' type='text/css' />"
+
+        strHead &= "</head>"
+        HttpContext.Current.Response.Clear()
+
+        Dim strHTML As String = stringWrite.ToString()
+        '  strHTML = strHTML.Replace("<div>", "<link href=""../css/print.css"" rel=""stylesheet"" type=""text/css"" media=""all"" /><div>")
+        HttpContext.Current.Response.Clear()
+        HttpContext.Current.Response.Write(strHead)
+        HttpContext.Current.Response.Write(strHTML)
+        'HttpContext.Current.Response.Write("<script>window.print();</script>")
+        HttpContext.Current.Response.Write("<script type='text/javascript'>function PrintWindow() {window.print();CheckWindowState();}function CheckWindowState() { if(document.readyState=='complete') {window.close(); } else {setTimeout('CheckWindowState()', 2000)}} PrintWindow();</script> ")
+        HttpContext.Current.Response.End()
+    End Sub
+End Class

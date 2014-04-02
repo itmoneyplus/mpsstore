@@ -1,0 +1,58 @@
+https://wsp.bluecentral.com/Default.aspx?pid=Login&ReturnUrl=%2fDefault.aspx
+
+Username is cuykynsi
+
+Password is Pabla888
+
+This is SQL Server connection string------server=mssql01;database=cuykynsiDataPlus;uid=cuykynsisa_ms;pwd=Moneyplus15 
+
+
+
+For Filezilla 
+
+Host is----- 203.30.165.39
+
+Username is cuykynsi
+
+Password is Pabla888
+
+
+http://moneyplus.com.au/site/Umbraco
+
+Username is admin
+Password is Pabla888
+
+users under umbraco...
+
+1)username:suadmin
+password:Pabla888
+
+2) username:test_new
+Password:test
+
+3) username:Parth
+Password:Parth
+
+suadmin
+https://my.bluecentral.com/clientarea.php
+
+Username is headoffice@moneyplus.com.au
+Password is Pabla888
+
+'''''''''''''''''''''''''''''''''''''''''''''''
+
+https://control.bluecentral.com---old one which is for ne lending
+Username is MoneyPlusAustraliaPL
+Password is Milton686
+
+
+Email
+
+Username:Monika@moneyplus.com.au
+
+Password:Milton888
+
+'''''''''''''''''''''''''''''''''''''''''''''''''
+
+
+

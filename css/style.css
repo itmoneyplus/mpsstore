@@ -1,0 +1,2371 @@
+
+.body
+{
+	font-family: Arial,Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0;
+    padding: 0;
+    width:980px;
+}
+.table
+{
+	text-align: left;
+	/*border: solid 1px gray;*/
+	border-bottom:solid 1px gray;
+	font-size:12px !important;
+    width:100%; /*950px;*/    
+    padding: 0;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 65px;    
+}
+
+.table_loan_repay
+{
+	text-align: left;
+	/*border: solid 1px gray;*/
+	border-bottom:solid 1px gray;
+	font-size:12px !important;
+    width:95%; /*950px;*/
+   
+    padding: 0;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 5px; 
+    margin-bottom:10px;
+    border: solid 1px gray;   
+}
+
+.table-pc
+{
+	text-align: left;
+	border: solid 1px gray;
+	font-size:12px !important;
+    margin:0;
+    padding: 0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.table_loanrepay
+{
+	text-align: left;
+	border: solid 1px gray;
+    width:95%;
+    margin-top:10px;
+   
+}
+.table_AddBank
+{
+	text-align: left;
+	border: solid 0px gray;
+    width:95%;
+    margin-top:10px;
+    margin-left:30px;
+}
+#MainContainer
+  {
+      width: 1244px; /* 1444px 990px;*/
+      height: 100%; /*768px;*/
+      margin: auto;
+      border:solid 0.5px black;
+      /*border-top:none;
+      /*background-color:#FFFAFA;*/
+      background-color:#FFFFFF;
+      
+  }
+  #MainContainer_BankDetail
+  {
+      width: 1244px; /* 1444px 990px;*/
+      height: 100%; /*768px;*/
+      margin: auto;
+      border:solid 0px black;
+      /*border-top:none;
+      /*background-color:#FFFAFA;*/
+      background-color:#FFFFFF;
+  }
+#MainContainer_personal
+  {
+      width: 1244px; /* 1444px 990px;*/
+      height: 100%; /*768px;*/
+      margin-top:50px;
+      border:none;
+      /*border:solid 0.5px black;*/
+      /*border-top:none;
+      /*background-color:#FFFAFA;*/
+      background-color:#FFFFFF;
+     
+  }
+
+
+.table_nominatebank
+{
+	text-align: left;
+	border: solid 1px gray;
+	width:100%;
+	
+}
+
+.login_border
+{
+	height :80%;
+	text-align:center;
+	border: solid 1px gray;
+    width:90%;
+    position :relative;
+    top:10px;
+    left:5%;
+}
+
+.table_toolbaar
+{
+	text-align: left;
+	border: solid 1px gray;
+    width:100%;
+   letter-spacing:1px;
+    padding:5px;
+    background-color:#EEEEEE;
+     font-family:Arial;
+     font-size:13px;
+}
+.table_toolbaar_new
+{
+	text-align: left;
+
+    width:100%;
+}
+
+.table_toolbaar_bank
+{
+	text-align: left;
+	border: solid 1px gray;
+    width:80%;
+    padding:5px;
+    letter-spacing:1px;
+    background-color:#EEEEEE;
+    font-family:Times New Roman;
+}
+.table_toolbaar_rep
+{
+	text-align: center;
+	border-right:1px solid rgb(0, 34, 50); /*solid 1px gray;*/
+	height:43px;
+    width:300px; /*300px;*/
+    margin:30px; /*200px;*/
+}
+.table_toolbaar_letter
+{
+	text-align: center;
+	border-right:1px solid rgb(0, 34, 50); /*solid 1px gray;*/
+	height:95%;
+    width:230px;
+    margin-top:10px; /*200px;*/
+    margin-right:5px;
+    padding-left:20px;
+}
+.table_toolbaar_letter_left
+{
+	vertical-align: top;
+	text-align: left;		
+    width:80%;
+    margin-top:150px; /*200px;*/
+    margin-left:10px;
+    /*padding: 0px; margin: 0px; position: absolute; float: left; top:150px; left: 350px;*/
+    padding: 0px; margin: 0px; position: absolute; float: left; top:150px ; left:150px;
+    padding-top:50px;
+    margin-left:15%;
+   
+}
+.toolbaar1_td_rep_teller
+{
+	width:160px;
+	height:20px;
+	text-align :center;
+	border: solid 1px gray; 
+	
+	}
+.toolbaar1_td_rep
+{
+	width:180px;
+	height:20px;
+	text-align :center;
+	border: solid 1px gray; 
+	
+	}
+.toolbaar1_td_rep_payroll
+{
+	width:370px;
+	margin-left:5px;
+	height:20px;
+	text-align :center;
+	border: solid 1px gray; 
+	
+}
+.toolbaar3_table_rep
+{
+	width:95%; 
+	height :25px;
+	border: solid 1px gray; 
+}
+.td_ht
+{
+	text-align :center ;
+}
+.td
+{
+	text-align: left;
+	font-size:14px;
+    font-family :MS Sans Serif;
+    font-weight:bold;
+}
+.td_print_bnk
+{
+	text-align: left;
+	font-size:14px;
+    font-family :MS Sans Serif;
+    font-weight:bold;
+}
+
+.td_loansumm
+{
+	text-align: left;
+	width:25%;
+    font-size:14px;
+    font-family :Times New Roman;
+    font-weight:bold;
+    color:Black;
+  
+}
+
+.td_repay
+{
+	text-align: left;
+    font-size:14px;
+    font-family :Times New Roman;
+    font-weight:bold;
+    color:Black;
+    background-color: #E8E8E8;
+    border: solid 1px gray;
+    height:35px;
+}
+
+.lbl_repay
+{
+	font-size:14px;
+    font-family :Times New Roman;
+    font-weight:bold;
+}
+
+.td_width
+{
+	width:35%;
+}
+
+
+.td1_loansumm
+{
+	text-align: left;
+	width:18%;
+	font-size:14px;
+    font-family :Times New Roman;
+    font-weight:bold;
+    color :Black;
+}
+.td1_loansumm_new
+{
+	text-align: left;
+	width:10%;
+	font-size:14px;
+    font-family :Times New Roman;
+    font-weight:bold;
+    color :Black;
+}
+.td1_cheque_new
+{
+	text-align: left;
+	width:20%;
+	font-size:15px;
+    font-family :Times New Roman;
+    font-weight:bold;
+    color :Black;
+}
+.td1_chequesumm
+{
+	text-align: left;
+	width:20%;
+	font-size:15px;
+    font-family :Times New Roman;
+    font-weight:bold;
+    color :Black;
+}
+
+.td2_loansumm
+{
+	text-align: left;
+	width:10%;
+	font-size:14px;
+    font-family :Times New Roman;
+    font-weight:bold;
+    color:Black;
+}
+
+.txtbox
+{
+	text-align: left;
+	text-transform:capitalize;
+}
+
+.align
+{
+	text-align: left;
+}
+
+
+.align_width
+{
+	text-align: left;
+	width:40%;
+}
+
+.align_width_less
+{
+	text-align: left;
+	width:25%;
+}
+
+.align-center
+{
+	text-align:left;  /*center;*/
+	font-size:15px;
+	font-family :Times New Roman;
+	width:100%; /*70%;*/
+	margin-left:50px;
+	margin-right:10px;
+	color:Black;
+	/*font-weight:bold;*/
+	
+}
+.align-center-loanapplication
+{
+	text-align:left;  /*center;*/
+	font-size:15px;
+	font-family :Times New Roman;
+	width:100%; /*70%;*/
+	margin-left:10px;
+	margin-right:10px;
+	color:Black;
+	/*font-weight:bold;*/
+	
+}
+.align-center_teller
+{
+	float:left;
+	text-align:left;  /*center;*/
+	font-size:15px;
+	font-family :Times New Roman;
+	width:100%; /*70%;*/	
+	margin-right:10px;
+	color:Black;
+	/*font-weight:bold;*/
+	
+}
+
+.italics1-doc-new
+{
+	
+	font-size :20px;
+	color: #000000;
+	font-weight:bold;
+	text-align :left;
+	font-size:14px;
+	
+}
+.italics1-doc-declined
+{
+	
+	font-size :20px;
+	color: #000000;
+	font-weight:bold;
+	text-align :left;
+	font-size:14px;
+	margin-left:120px;
+}
+.div
+{
+	height:600px;
+	width :550px; 
+	overflow :scroll;
+}
+.div_new
+{
+	height:600px;
+	width :680px; 
+	overflow :scroll;
+}
+
+.italics
+{
+	font-style: italic;
+	font-weight: 700;
+}
+
+.italics-doc
+{
+	font-style: italic;
+	color: #800000;
+}
+
+.italics1-doc
+
+{
+	font-style: italic;
+	font-size :18px;
+	color: #000000;
+	font-weight:bold;
+	text-align :left;
+	margin-top:20px;
+	padding-top:20px;
+	margin-bottom:20px;
+	padding-bottom:20px;
+}
+.italics1-doc_debt
+
+{
+	font-style: italic;
+	font-size :28px;
+	color: #800000;
+	font-weight:bold;
+	text-align :left;
+}
+.italics1-doc_debt_new
+
+{
+	font-style: italic;
+	font-size :22px;
+	color: #800000;
+	font-weight:bold;
+	text-align :left;
+    margin-left:30px;
+}
+.normal-doc_debt
+
+{
+	font-style:normal;
+	font-size :36px;
+	color:red;
+	font-weight:bold;
+	text-align :left;
+}
+.form1
+{
+	font-weight: 700;
+}
+
+.bld
+{
+	font-weight:bold;
+	text-align:left;
+
+}
+
+.td2
+{
+	text-align :left;
+	width:20%;
+	font-weight:bold;
+	font-size:14px;
+}
+
+
+.align-center1
+{
+	text-align: center;
+	width:25%;
+	font-size:15.5px;
+	font-family :Times New Roman;
+}
+
+.align-centernew
+{
+	text-align: center;
+	width:10%;
+}
+
+.align-right
+{
+	 text-align :right;
+
+}
+.align-right2
+{
+	margin-top:250px;
+	 text-align :right;
+
+}
+.txt-left
+{
+	text-align:left;
+}
+.w100
+{
+	width:95%;
+	margin-left:40px;
+	margin-top:20px;
+}
+.w25
+{
+	width:25%;
+}
+.w75
+{
+	width:75%;
+}
+.ptop50
+{
+	padding-top:50px;
+}
+.pright15
+{
+	padding-right:15px;
+}
+
+.align_right_loansumm
+{
+
+	 text-align :right;
+	 width:40px;
+	 position:relative ;
+	 left:60%;
+	 font-size:14px;
+	 font-family :Times New Roman;
+	 font-weight :bold ;
+	 padding-right:25px;
+	 margin-right:25px;
+}
+
+.align_loansumm
+{
+	 text-align :left;
+	 width:80px;
+	 font-size:14px;
+	 font-family :Times New Roman;
+	 font-weight :bold ;
+	
+}
+
+.table-top
+{
+	 background-color: #ffffff ;
+	 width:85%;
+	 border : solid 1px gray;
+	 margin-top:30px;
+}
+
+.table-top_new1
+{
+	 background-color: #ffffff ;
+	 width:1244px;
+	 /*width:95%;*/
+	 border : solid 1px gray;
+}
+.table-top-new
+{
+	 background-color: #ffffff ;
+	 width:60%;
+	 border : solid 1px gray;
+}
+
+
+.top-style
+{
+	background-color :#EEEEEE;
+	height :5px;
+	width :200px; 
+	font-size:14px;
+	font-family :MS Sans Serif;
+	font-weight :bold ;
+	text-align :center;
+	border : solid 1px gray;
+}
+
+.top_style_new
+{
+	
+	height :25px;
+	width :200px; 
+	font-size:14px;
+	font-family :MS Sans Serif;
+	font-weight :bold ;
+	text-align :center;
+	border : solid 1px gray;
+}
+
+
+.top-italics-style
+{
+
+	height:30px;
+	font-size:14px;
+	font-family :MS Sans Serif;
+	font-style :italic;
+	text-align :left;
+}
+
+.td-personal
+{
+	height:22px;
+	font-size:14px;
+	font-family :MS Sans Serif ;
+	text-align:left;
+	font-weight:500 ;
+}
+.td-personal_new
+{
+	height:22px;
+	font-size:13.5px;
+	font-family :MS Sans Serif ;
+	text-align:left;
+	font-weight:500 ;
+	
+}
+
+.table_desk
+{
+	border:1px;
+	height:80%;
+	width:80%;
+	border-color:#C0C0C0;
+}
+
+.td_desk
+{
+	 text-align:right;
+	 background-color:#FFFFFF ;
+	 height : 20%; 
+	 width:100%;
+}
+	
+.lgn_table
+{
+	border: thin solid gray;
+	height:606px;
+	width:918px;
+
+}
+.login_td
+{
+	text-align:center; 
+	background-color:#FFFFFF ;
+	height : 100%;
+	width:100%;
+}
+
+.grid_position
+{
+	position :relative ;
+	left:5%;
+}
+
+
+.table_noborder
+
+{   text-align: left;
+	width :85%;
+}
+
+
+.label_text
+{
+	font-size :14px;
+	font-weight:bold ;
+}
+
+.declined_label_text
+{
+	font-size :19px;
+	font-weight:bold;
+	padding-left:600px;
+}
+
+.link_text
+{
+	color:Black;
+	Font-Size:12px;
+	font-weight:bold ;
+	font-family:Arial;
+
+}
+.link_text:hover
+{
+	color:#2E95C9;	
+
+}
+
+.label_italics
+
+{   
+	font-weight: 700;
+	color: #800000;
+	font-style: italic;
+	font-size: 18px;
+	font-family: 'Times New Roman', Times, serif;
+	
+}
+
+.toolbaar1_tr
+{
+	background-color: #EEEEEE;
+	/*background-color: white;*/
+	 
+}
+
+.toolbaar1_link
+{
+	color:Black;
+	Font-Size:13px;
+	font-weight:bold;
+	text-decoration: none;	
+	font-family:Arial;
+	/*font-family:Tahoma;*/
+	
+}
+.toolbaar1_link:hover
+{
+	Color:Black;
+	Font-Size:13px;
+	font-weight:bold;
+	text-decoration: underline;	
+	/*font-family:Tahoma;*/
+}
+.toolbaar1_link:active
+{
+	color:#2E95C9;
+	Font-Size:13px;
+	font-weight:bold;
+	
+	/*font-family:Tahoma;*/
+}
+.toolbaar1_link_active
+{
+	/*color:#0482FF;*/
+	color:#2E95C9;
+	Font-Size:13px;
+	font-weight:bold;
+	text-decoration: none;	
+	font-family:Arial;
+	/*font-family:Tahoma;*/
+	
+}
+.toolbaar1Payroll_link
+{
+	width:350px;
+	color:Black;
+	Font-Size:13px;
+	font-weight:bold;
+	text-decoration: none;	
+	font-family:Arial;
+	/*font-family:Tahoma;*/
+	
+}
+.toolbaar1Payroll_link:hover
+{
+	width:350px;
+	color:Black;
+	Font-Size:13px;
+	font-weight:bold;
+	text-decoration: underline;	
+	/*font-family:Tahoma;*/
+}
+.toolbarMarketing_link
+{
+	width:100px;	
+	color:Black;
+	Font-Size:14px;	
+	text-decoration: underline;
+	
+}
+.toolbaar1_text
+{
+	color:Black;
+	Font-Size:16px;
+	/*font-weight:bold;*/
+	/*font-family:Tahoma;*/
+	 font-family :'Times New Roman', Times, serif;
+	
+	
+}
+.toolbaar1_text_1
+{
+	color:Black;
+	Font-Size:14px;
+	font-weight:bold;
+	font-family:Tahoma;
+	 /*'Times New Roman', Times, serif;*/
+	margin-bottom:20px;
+	
+}
+.btnsearch_employer
+{
+	margin-top:20px;
+	margin-left:215px;
+}
+.btnsearch_Grpsearch
+{
+	margin-top:20px;
+	margin-left:230px;
+}
+.btnsearch_Cust_Analysis
+{
+	margin-top:20px;
+	margin-left:275px;
+}
+.toolbaar1_text_new
+{
+	Color:Black;
+	font-family: 'Times New Roman', Times, serif;
+	border:1px solid #7F9DB9;
+	Font-Size:14px;
+	font-weight:bold;
+}
+
+.toolbaar1_td
+{
+	width:100%;
+	height:10px;
+
+}
+.toolbaar1_td_new
+{
+	width:50%;
+	height:10px;
+	text-align :center;
+	border: solid 1px gray; 
+
+}
+.toolbaar1_td_right
+{
+	width:100%;
+	height:14px;
+	text-align :right ;
+}
+#navbarMarketing 
+ {
+	margin: 0;	
+	margin-bottom:0px;
+	padding: 0;
+	height: 1em;
+	font-size :12px;
+	font-weight :bold;
+	height:22px;	
+ }
+ 
+#navbarMarketing  li 
+{
+	list-style: none;
+	float: left;	
+}
+
+#navbarMarketing  li a 
+{
+	display: block;
+	padding: 3px 8px;
+	background-color: #FFFFFF;
+	color: Black ;
+	text-decoration: none;
+	border :solid 1px gray;
+	/*background-image: url('../Images/menu_arrow.png');*/
+	background-repeat: no-repeat;	
+	background-position: 100% 45%;	
+	width:120px;
+	/*height:18px;*/
+}
+#navbarMarketing  li a:hover
+{
+	font-weight:bold;
+	/*text-decoration:underline;*/
+	color:#0482FF;	
+}
+#navbarOnlineJoined 
+ {
+	margin: 0;	
+	margin-bottom:0px;
+	padding: 0;
+	height: 1em;
+	font-size :12px;
+	font-weight :bold;
+	height:22px;	
+ }
+ 
+#navbarOnlineJoined li 
+{
+	list-style: none;
+	float: left;	
+}
+
+#navbarOnlineJoined li a 
+{
+	display: block;
+	padding: 3px 8px;
+	background-color: #FFFFFF;
+	color: Black ;
+	text-decoration: none;
+	border :solid 1px gray;
+	/*background-image: url('../Images/menu_arrow.png');*/
+	background-repeat: no-repeat;	
+	background-position: 100% 45%;	
+	width:130px;
+	/*height:18px;*/
+}
+#navbarOnlineJoined li a:hover
+{
+	font-weight:bold;
+	text-decoration:underline;
+	color:#0482FF;	
+}
+#navbarBankFile 
+ {
+	margin: 0;	
+	margin-bottom:0px;
+	padding: 0;
+	height: 1em;
+	font-size :12px;
+	font-weight :bold;
+	height:22px;	
+ }
+
+#navbarBankFile  li 
+{
+	list-style: none;
+	float: left;	
+}
+
+#navbarBankFile li a 
+{
+	display: block;
+	padding: 3px 5px;
+	background-color: #FFFFFF;
+	color: Black ;
+	text-decoration: none;
+	border :solid 1px gray;
+	/*background-image: url('../Images/menu_arrow.png');*/
+	background-repeat: no-repeat;	
+	background-position: 100% 45%;	
+	width:112px;
+	/*height:18px;*/
+}
+#navbarBankFile  li a:hover
+{
+	font-weight:bold;
+	/*text-decoration:underline;*/
+	color:#0482FF;	
+}
+#navbarCustomer 
+ {
+	margin: 0;		
+	padding: 0;
+	height: 1em;
+	font-size :12px;
+	font-weight :bold;
+	height:22px;	
+ }
+ 
+#navbarCustomer li 
+{
+	list-style: none;
+	float: left;	
+}
+#navbarCustomer li a 
+{
+	display: block;
+	padding: 3px 8px;
+	background-color: #FFFFFF;
+	color: Black ;
+	text-decoration: none;
+	border :solid 1px gray;
+	background-image: url('../Images/menu_arrow.png');
+	background-repeat: no-repeat;	
+	background-position: 100% 45%;	
+	width:90px;
+	/*height:18px;*/
+}
+#navbarCustomer  li a:hover
+{
+	font-weight:bold;
+	/*text-decoration:underline;*/
+	color:#0482FF;	
+}
+
+#navbarCustomer li ul 
+{
+	display: none; 
+	width: 12em; /* Width to help Opera out */
+	/*background-color: #69f;*/
+	/*width:15%;*/		
+}
+	
+#navbarCustomer li:hover ul {
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0;	
+}
+
+#navbarCustomer li:hover li 
+{
+	float: none; 
+}
+
+#navbarCustomer li:hover li a
+ {
+    background-color:menu;
+	border-bottom: 0px solid  #E8E8E8;
+	color: #000; 
+	height:100%;
+	width:140px;
+}
+
+#navbarCustomer li li a:hover 
+{
+	background-color:  #C0C0C0 ;
+	width:140px;
+	height:100%;
+}
+
+#navbarCustomer:hover > ul {
+display:block;
+}
+#navbarCustomerDetail 
+ {
+ 	
+ 	margin: 0;		
+	padding: 0;	
+	font-size :12px;
+	font-weight :bold;
+	height:22px;
+
+ }
+ 
+#navbarCustomerDetail li 
+{
+	list-style: none;
+	float: left;	
+}
+#navbarCustomerDetail li a 
+{
+	display: block;
+	padding: 3px 8px;
+	background-color: #FFFFFF;
+	color: Black ;
+	text-decoration: none;
+	border :solid 1px gray;
+	background-image: url('../Images/menu_arrow.png');
+	background-repeat: no-repeat;	
+	background-position: 100% 45%;	
+	width:90px;
+	/*height:18px;*/
+}
+#navbarCustomerDetail  li a:hover
+{
+	font-weight:bold;
+	/*text-decoration:underline;*/
+	color:#0482FF;	
+}
+
+#navbarCustomerDetail li ul 
+{
+	display: none; 
+	width: 12em; /* Width to help Opera out */
+	/*background-color: #69f;*/
+	/*width:15%;*/		
+}
+	
+#navbarCustomerDetail li:hover ul {
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0;	
+}
+
+#navbarCustomerDetail li:hover li 
+{
+	float: none; 
+}
+
+#navbarCustomerDetail li:hover li a
+ {
+    background-color:menu;
+	border-bottom: 0px solid  #E8E8E8;
+	color: #000; 
+	height:100%;
+	width:140px;
+}
+
+#navbarCustomerDetail li li a:hover 
+{
+	background-color:  #C0C0C0 ;
+	width:140px;
+	height:100%;
+}
+
+#navbarCustomerDetail:hover > ul {
+display:block;
+}
+
+#navbarCustomerDetailIE 
+ {
+	margin: 0;	
+	
+	padding: 0;
+	height: 1em;
+	font-size :12px;
+	font-weight :bold;
+	height:22px;	
+ }
+ 
+#navbarCustomerDetailIE li 
+{
+	list-style: none;
+	float: left;	
+}
+#navbarCustomerDetailIE li a 
+{
+	display: block;
+	padding: 3px 8px;
+	background-color: #FFFFFF;
+	color: Black ;
+	text-decoration: none;
+	border :solid 1px gray;
+	background-image: url('../Images/menu_arrow.png');
+	background-repeat: no-repeat;	
+	background-position: 100% 45%;	
+	width:90px;
+	/*height:18px;*/
+}
+#navbarCustomerDetailIE  li a:hover
+{
+	font-weight:bold;
+	/*text-decoration:underline;*/
+	color:#0482FF;	
+}
+
+#navbarCustomerDetailIE li ul 
+{
+	display: none; 
+	width: 12em; /* Width to help Opera out */
+	/*background-color: #69f;*/
+	/*width:15%;*/		
+}
+	
+#navbarCustomerDetailIE li:hover ul {
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0;	
+}
+
+#navbarCustomerDetailIE li:hover li 
+{
+	float: none; 
+}
+
+#navbarCustomerDetailIE li:hover li a
+ {
+    background-color:menu;
+	border-bottom: 0px solid  #E8E8E8;
+	color: #000; 
+	height:100%;
+	width:140px;
+}
+
+#navbarCustomerDetailIE li li a:hover 
+{
+	background-color:  #C0C0C0 ;
+	width:140px;
+	height:100%;
+}
+
+#navbarCustomerDetailIE:hover > ul {
+display:block;
+}
+
+.link_tab_active
+{
+	
+	background: #EEEEEE;
+	color:#0482FF;		
+}
+
+
+ #navbar 
+ {
+	margin: 0;
+	margin-bottom:0px;
+	padding: 0;	
+	font-size :12px;	
+	height:26px;	
+ }
+ 
+#navbar li 
+{
+	list-style: none;
+	float: left;	
+}
+#navbar li a 
+{
+	display: block;
+	padding: 3px 8px;
+	background-color: #FFFFFF;
+	color: Black ;
+	text-decoration: none;
+	border :solid 1px gray;
+	background-image: url('../Images/menu_arrow.png');
+	background-repeat: no-repeat;	
+	background-position: 100% 45%;	
+	width:90px;
+	/*height:18px;*/
+}
+
+#navbar li ul 
+{
+	display: none; 
+	width: 12em; /* Width to help Opera out */
+	/*background-color: #69f;*/
+	/*width:15%;*/		
+}
+	
+#navbar li:hover ul {
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0;	
+}
+
+#navbar li:hover li 
+{
+	float: none; 
+}
+
+#navbar li:hover li a
+ {
+    background-color:menu;
+	border-bottom: 1px solid  #E8E8E8;
+	color: #000; 
+	height:100%;
+	width:140px;
+}
+
+#navbar li li a:hover 
+{
+	background-color:  #C0C0C0 ;
+	width:140px;
+	height:100%;
+}
+
+#navbar:hover > ul {
+display:block;
+}
+
+#childnavbar li a
+{
+	background-image:none;
+	/*width:85px;*/
+}
+
+.toolbaar3_label
+{
+	Width:85% ;
+    Font:Times New Roman;
+    Font-Size:14px;
+    
+}
+
+.toolbaar3_td
+{
+	text-align:right;
+	font-size:16px;
+	font: Times New Roman ; 
+	font-weight:bold;
+	
+}
+.toolbaar3_td_customer
+{
+	padding-right:20px;
+	text-align:right;
+	font-size:16px;
+	font: Times New Roman ; 
+	font-weight:bold;
+	
+}
+.toolbaar3_td_customer_detail
+{
+	
+	text-align:right;
+	font-size:16px;
+	font: Times New Roman ; 
+	font-weight:bold;
+	
+}
+.toolbaar3_table
+{
+	width:1244px;
+	height :10px;
+	/*border: solid 1px gray;*/ 
+	background-color: #FFFFFF;
+	border-bottom: 1px solid Gray;
+	font-size :14px;
+	
+}
+.customerContent
+{
+	margin-left:30px;
+	
+}
+.toolbarMarketing_table
+{
+	width:1244px;
+	height :10px;
+	/*border: solid 1px gray;*/ 
+	background-color: #FFFFFF;
+	border-bottom: 1px solid Gray;
+	font-size :14px;
+	margin-top:50px;
+	
+	
+}
+.toolbartellareport_table
+{
+	
+	width:1244px;
+	height :10px;
+	/*border: solid 1px gray;*/ 
+	background-color: #FFFFFF;
+	/*border-bottom: 1px solid Gray;*/
+	font-size :14px;
+	margin-top:50px;
+	
+	
+}
+
+.toolbarcustomer_table
+{
+	width:95%;
+	/*width:1244px;*/
+	height :10px;
+	/*border: solid 1px gray;*/ 
+	background-color: #FFFFFF;
+	/*border-bottom: 1px solid Gray;*/
+	font-size :14px;
+	margin-top:50px;
+	
+	
+	
+}
+.toolbarcustomer_table2
+{
+	width:95%;
+	/*width:1244px;*/
+	height :10px;
+	/*border: solid 1px gray;*/ 
+	background-color: #FFFFFF;
+	/*border-bottom: 1px solid Gray;*/
+	font-size :14px;
+	margin-top:50px;
+	margin-right:30px;
+	
+	
+	
+}
+.toolbarcustomerDetail_table
+{
+	
+	width:95%;
+	/*width:1244px;*/
+	height :10px;
+	/*border: solid 1px gray;*/ 
+	background-color: #FFFFFF;
+	/*border-bottom: 1px solid Gray;*/
+	font-size :14px;
+	
+	
+	
+	
+}
+
+.payreceipt_table
+{
+	width:95%; 
+	height :10px;
+	border: solid 1px gray; 
+
+}
+.payreceipt_tablenew
+{
+	width:95%; 
+	height :10px;
+	border: solid 1px gray; 
+
+}
+.tool_loan_layout
+{
+	 border: solid 0px gray;
+	 width: 1244px; /* 1444px 990px;*/
+     height: 100%;
+    
+}
+.tool_report_layout
+{
+	 border: solid 1px gray;
+	 width: 1244px; /* 1444px 990px;*/
+     height: 100%;
+     
+}
+.toolbar_table
+{
+	
+	/*border-right:1px solid rgb(0, 34, 50);*/
+	
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:5px;
+	padding-right:10px;
+	
+		
+}
+.update_bank_table
+{
+	 border: solid 1px gray;
+	 height: 57px; 
+	 width: 95%;
+	 margin-top:10px;
+	 margin-bottom:10px;
+}
+.update_bank_table3
+{
+	 border: solid 0px gray;
+	 height: 57px; 
+	 width: 95%;
+	 margin-top:10px;
+	 margin-bottom:10px;
+}
+.update_bank_table_BankDetail
+{
+	 border: solid 0px gray;
+	 height: 57px; 
+	 width: 95%;
+	 margin-top:10px;
+	 margin-bottom:10px;
+}
+.update_bank_table_new
+{
+	width :95%;
+	height :10px;
+	border: solid 1px gray;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.update_bank_table_center
+{
+	text-align:center;
+	border:solid 1px gray;
+	font-size:15px;
+}
+
+.update_bank_table_lbl
+{
+	font-size: medium; 
+	color: #333333;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 700;
+}
+.toolbaar2_td
+{
+	font-size:14px;
+	font-family: Times New Roman ;
+	font-weight:bold;
+}
+.toolbaar2td
+	
+{
+	font-size:14px;
+	font-family: Times New Roman ;
+	font-weight:bold;
+	text-align :left;
+}
+
+.font
+{
+    font-size:xx-large;
+	font-family: Times New Roman;
+	font-weight:bold;
+	text-align :center;
+	color:Red;
+}
+.toolbaar2_table
+{
+	text-align:center;
+    width :95%;
+    height :10px;
+    /*border: solid 1px gray; */
+    border:none;
+    background-color:  White;
+}
+
+.login_table
+{
+
+	border: thin solid gray; 
+	height:606px; 
+	width:918px; 
+	background-color:White;
+}
+
+.login_table1
+{
+	padding: 1px 4px; 
+	border:thin solid gray;
+	background-color:#F9F8F8;
+	height :8px; 
+	width:230px;
+	position: relative;
+	top: 120px;
+
+}
+
+.login_pwd
+{
+	border:1px solid #7F9DB9;
+	color: black;
+	font-size :12px;
+	width :110px;
+	
+}
+ .login_td
+ {
+ 	color:#000000;
+ 	height:38px;
+ 	width :150px;
+ }
+ .login_td1
+ {
+    font-family : 'Times New Roman', Times, serif;
+ 	height:38px;
+ 	width :180px;
+ 	font-size:14px;
+ 	text-align :center;
+ }
+ .login_button
+ {
+ 	border:1px ridge gray;
+ 	width: 70px; 
+ 	background-repeat:no-repeat;
+ 	background-color:#E2EDF5;
+ 	text-align :center;
+	position: relative;
+	top: 0px;
+	left: 10px;
+	}
+.nominate_bank_center_align
+{   width:95%;
+	height :10px;
+	border: solid 1px gray;
+	text-align :center;
+}
+.txt-center
+{
+	text-align :center;
+	font-style: italic;
+	font-size :20px;
+	color: #800000;
+	font-weight:bold;
+	
+
+}
+.txt-center1
+{
+	text-align :center;
+    font-size:14px;
+	font-weight:bold;
+
+}
+.MsoNormalTable
+	{
+
+	font-family:"Times New Roman"
+	}
+
+
+.MsoNormal
+{	
+    margin: 0.0pt 0cm;
+    text-align:left;
+	margin-bottom:.0001pt;
+	font-size:16px;
+	font-family:"Times New Roman";
+	margin-left:0in; margin-right:0in; margin-top:0in
+}
+.MsoNormal_letter
+{	
+    margin: 0.0pt 0cm;
+    text-align:left;
+	margin-bottom:.0001pt;
+	font-size:14px;
+	font-family:"Verdana";
+	margin-left:0in; margin-right:0in; margin-top:0in
+}
+.MsoNormal_dd
+{	
+    margin: 0.0pt 0cm;
+    text-align:left;
+	margin-bottom:.0001pt;
+	font-size:16px;
+	font-family:"Times New Roman";
+	margin-left:0in; margin-right:0in; margin-top:0in
+}
+
+.MsoNormal_p
+{	
+    text-align:left;
+	margin-bottom:.0001pt;
+	font-size:16px;
+	font-family:"Times New Roman";
+	margin-left:0in; margin-right:0in; margin-top:0in;
+	width: 210px;
+}
+.MsoNormal_p_contract
+{	
+    text-align:left;
+	margin-bottom:.0001pt;
+	font-size:16.5px;
+	font-family:"Times New Roman";
+	margin-left:0in; margin-right:0in; margin-top:0in;
+	width: 250px;
+}
+.MsoNormal_p_contract_new
+{	
+    text-align:left;
+	margin-bottom:.0001pt;
+	font-size:15.5px;
+	font-family:"Times New Roman";
+	margin-left:0in; margin-right:0in; margin-top:0in;
+	
+}
+
+	.MsoNormal_new_contract
+{	
+    margin: 0.0pt 0cm;
+    text-align:center;
+	margin-bottom:.0001pt;
+	font-size:14px;
+	font-family:"Times New Roman";
+	margin-left:0in; margin-right:0in; margin-top:0in
+}
+		
+.MsoTableGrid
+		
+{
+	border-collapse: collapse;
+	border: medium none;
+	font-family:"Times New Roman"
+	margin-left:.15in;
+}
+		
+ .msoDel
+{
+	
+	text-decoration:line-through;
+	color:red
+}
+
+ .part_tr
+{
+    page-break-inside: avoid;
+}
+
+ .td_part
+{
+	width: 100%; 
+	border-left: 1.5pt double windowtext;
+	border-right: 1.5pt double windowtext;
+	border-top: 1.5pt double windowtext; 
+	border-bottom: 1.5pt double windowtext;
+	padding-left: 5.4pt;
+	padding-right: 5.4pt;
+	padding-top: 0cm;
+	padding-bottom: 0cm;
+	text-align:center;
+}
+		
+ .part_p
+{
+	margin-top: 0.1cm;
+	text-align:center;
+}
+		
+ .part_font
+{
+	font-size:16px;
+	font-weight:bold ;
+
+}
+ .part_font_contract
+{
+	font-size:14px;
+	font-weight:bold ;
+
+}
+.font_p
+{
+	font-size:16px;
+	font-family : Times New Roman;
+	color:Black ;
+}
+.font_p_contract
+{
+	font-size:14px;
+	font-family : Times New Roman;
+	color:Black ;
+}
+.font_p_left
+{
+	font-size: 16px;
+	font-family : Times New Roman;
+	color:Black ;
+	text-align :left ;
+}
+
+.font_p_left_contract
+{
+	font-size: 14px;
+	font-family : Times New Roman;
+	color:Black ;
+	text-align :left ;
+}
+.td_top_part
+{
+	border-color:#000000;
+	color: #FFFFFF;
+}
+		
+.position_cncl
+{
+	position: relative; 
+	top:-40px;
+	left: 3px;
+	height:25px;
+		
+}
+.position
+{
+	 position: relative;
+	 top: -40px; 
+	 left: 3px;
+	 height: 35px;
+ }
+ 
+.position_dis
+{
+     position: relative;
+     top: -30px; 
+     height: 22px;
+     left:-2px;
+}
+		
+.sav_position
+{
+	 position:relative ;
+	 left:300px;
+}
+.button_border
+{
+
+	 border-color: Silver ;
+	 Border-Style:Solid;
+	 margin-bottom:30px;
+}
+	
+.align_width
+{
+	width:25%;
+}
+.align_mid
+{
+	text-align :center;
+	font-size:14px;
+	height: 26px;
+}
+.rep_font_new
+{
+	text-align :right;
+	margin-bottom:.0001pt;
+	font-size:15.5px;
+    font-family: Times New Roman;
+	margin-left:0in; margin-right:0in; margin-top:0in;
+}
+
+.rep_font
+{
+	margin-bottom:.0001pt;
+	font-size:15.5px;
+    font-family: Times New Roman;
+	margin-left:0in; margin-right:0in; margin-top:0in;
+}
+.rep_font1
+{	
+   font-family:"Times New Roman";
+   font-size:15.5px ;
+   font-weight:bold ;
+	
+}
+
+
+
+span.msoDel
+{
+	text-decoration:line-through;
+	color:red
+}
+
+.tr_height
+{
+	text-align :right ;
+	height:3px;
+}
+.font_acc
+{
+	font-size:12px;
+    font-family :MS Sans Serif;
+   
+   
+    
+ }
+ .bnk_top
+        {
+            font-family :MS Sans Serif;
+            font-weight:bold;
+            font-size: 12px;
+            text-decoration: underline;
+        }
+        
+            /* .CalendarStyle   
+        {  
+            background-color:red;  
+            color:White;  
+           
+            }  
+        .ajax__calendar_header  
+        {  
+            background-color:red;  
+            color:White;
+            width :180px;  
+            }                   
+          .ajax__calendar_footer  
+        {  
+            background-color:red;  
+            color:White; 
+            width :180px;  
+            }  */
+            
+            .label_style
+            {
+            /*color:Blue;*/
+            /*font-family :Times New Roman;*/
+            /*font-family :Tahoma;*/
+            font-family :Arial;
+            font-size: 14px;
+            text-decoration:none;
+            color:black;
+            /*text-decoration: underline;*/
+            } 
+             .label_style_paymentcollection
+            {
+            /*color:Blue;*/
+            /*font-family :Times New Roman;*/
+            /*font-family :Tahoma;*/
+            padding-bottom:20px;
+				margin-bottom:20px;
+				font-family :Arial;
+				font-size: 14px;
+            /*text-decoration: underline;*/
+            } 
+            .label_style_1
+            {
+            /*color:Blue;*/
+            /*font-family :Times New Roman;*/
+            /*margin-top:20px;*/
+            font-family :Tahoma;
+            font-weight:bold;
+            font-size: 14px;
+            /*text-decoration: underline;*/
+            } 
+          
+          /*.red .ajax__calendar_body
+          {
+          width:180px;
+          height:150px;
+          background-color: #ffffff; border: solid 1px gray;
+          }
+        
+
+          .red .ajax__calendar_title
+          {
+          color: #ffffff; padding-top: 3px;
+          }
+          
+          .red .ajax__calendar_next,
+         
+          .red .ajax__calendar_hover .ajax__calendar_next,
+         
+          .red .ajax__calendar_dayname
+          {
+          text-align:center; margin-bottom: 4px; margin-top: 2px;
+          color:#000000;
+          } 
+          .red .ajax__calendar_day,
+          .red .ajax__calendar_month,
+          .red .ajax__calendar_year
+          {
+          margin:1px 1px 1px 1px;
+          text-align:center;
+          border:solid 1px #eeeeee;
+          color:#000000;
+          background-color: #f3f3f3;
+          }
+          .red .ajax__calendar_hover .ajax__calendar_day,
+          .red .ajax__calendar_hover .ajax__calendar_month,
+          .red .ajax__calendar_hover .ajax__calendar_year
+          {
+          color: #ffffff; font-weight:bold; background-color: #328BC8;border:solid 1px #328BC8;
+          }
+          .red .ajax__calendar_active .ajax__calendar_day,
+          .red .ajax__calendar_active .ajax__calendar_month,
+          .red .ajax__calendar_active .ajax__calendar_year
+          {
+          color: #ffffff; font-weight:bold; background-color: #F7B64A;	
+          }
+          .red .ajax__calendar_today .ajax__calendar_day
+          {
+          color: #CC0505; font-weight:bold; background-color: #ffffff;	
+          }
+          .red .ajax__calendar_other,
+          .red .ajax__calendar_hover .ajax__calendar_today
+          {
+          color: #ffffff;
+          font-weight:bold;
+          }
+          .ajax__calendar_days
+          {
+          background-color: #ffffff;
+          }*/
+          
+          .clear
+          {
+          	clear:both;
+          }
+          
+          .tbl-tr-inner tr td 
+          {
+          	text-align:right;
+          	padding-right:15px;
+          	padding-bottom:5px;
+          	padding-top:5px;
+          }
+.btn
+{
+	/*
+	border: 1 solid #000000;
+	background-color: #666666;
+	background-image: none;
+	color:#fff;
+	font-weight:bold;
+	letter-spacing:1px;
+	line-height:25px;
+	padding:5px;
+	margin-top:10px;
+*/	
+     /*border-color: Silver ;
+	 Border-Style:Solid;*/
+	 margin-bottom:20px;
+	 margin-top:20px;
+	
+	
+
+}
+.btnLoanApplication
+{
+	 margin-bottom:2px;	
+}
+.btn_BankFile
+{
+	
+	 margin-bottom:0px;
+	
+	
+
+}
+.btn_letter
+{
+	
+	 margin-bottom:20px;
+	 margin-top:20px;
+	 margin-left:270px;
+	
+
+}
+.btn_teller
+{
+	
+     border-color: Silver ;
+	 Border-Style:Solid;
+	 padding-left:5px;
+	 padding-right:5px;	
+	 margin: 0px; position: absolute; float: left; top:243px ; left:760px;
+
+}
+.btn_rp_sales
+{
+	
+     border-color: Silver ;
+	 Border-Style:Solid;
+	 margin-top:3px;	
+	  padding-left:5px;
+	 padding-right:5px;  position: absolute; float: left; top:323px ; left:760px;
+
+}
+.btn_rp_debtor
+{
+	
+     border-color: Silver ;
+	 Border-Style:Solid;
+	 margin-top:3px;	
+	  padding-left:5px;
+	 padding-right:5px;  position: absolute; float: left; top:253px ; left:990px;
+
+}
+.btn_rp_loan_settlement
+{
+	
+     border-color: Silver ;
+	 Border-Style:Solid;
+	 margin-top:3px;	
+	  padding-left:5px;
+	 padding-right:5px;  position: absolute; float: left; top:307px ; left:760px;
+
+
+}
+.btn_debort_as_at
+{
+	/*
+	
+     border-color: Silver ;
+	 Border-Style:Solid;	
+	  padding-left:5px;
+	 padding-right:5px; margin: 0px; position: absolute; float: left; top:218px ; left:740px;
+	*/
+	 margin-bottom:20px;
+
+}
+.btn_direct_dishonoured
+{
+	
+     border-color: Silver ;
+	 Border-Style:Solid;	
+	  padding-left:5px;
+	 padding-right:5px; margin: 0px; position: absolute; float: left; top:266px ; left:740px;
+
+}
+
+
+
+.gvreport thead tr th
+{
+	
+	font-weight:bold;
+	text-decoration:underline;
+	
+}
+.gvreport 
+{
+	margin: 1em; border-collapse: collapse;
+}
+.gvreport th
+{
+	line-height:25px;
+}
+.gvreport td th 
+{
+	padding: .3em; border: 1px #ccc solid; 
+}
+.txtpont
+{
+	color:#000;
+	text-align:center;
+	font-weight:bold;
+}
+.tdborder
+{
+	border: solid 1px #000;
+	border-collapse:collapse;
+}
+.tdborder table tr td 
+{
+	line-height:21px;
+}
+span.red
+{
+	color:Red !important;
+}
+span.green
+{
+	color:Green !important;
+}
+
+#toolbar 
+{
+	text-align:center;
+	margin-top:10px;
+	margin-left:5px;
+}
+
+.tblreport 
+{
+	border:solid 1px #C0C0C0;
+	border-collapse:collapse;
+	width:70%;
+	margin-top:20px;
+	/*margin-right:150px;*/
+}
+.tblreport tr th 
+{
+	background-color: #EEEEEE;
+	border: 1px solid #C0C0C0;
+	line-height:21px;
+	padding:5px;
+	font-weight:bold;	
+}
+
+.tblreport tr th.center
+{
+	text-align:center !important;
+}
+
+.tblreport tr th.white 
+{
+	background-color: #ffffff !important;	
+}
+.tblreport  tr th.right 
+{
+	text-align:right !important;	
+}
+.tblreport  tr td 
+{
+	background-color: #ffffff;
+	border: 1px solid #C0C0C0;
+	line-height:20px;
+	padding:5px;
+}
+.tblreport  tr td.blue 
+{
+	color:Blue !important;
+	font-size:14px !important;
+}
+.tblreport_new 
+{
+	border:solid 1px #C0C0C0;
+	border-collapse:collapse;
+	width:90%;
+	margin-top:20px;
+	/*margin-right:150px;*/
+}
+.tblreport_new tr th 
+{
+	background-color: #EEEEEE;
+	border: 1px solid #C0C0C0;
+	line-height:21px;
+	padding:5px;
+	font-weight:bold;	
+}
+
+.tblreport_new tr th.center
+{
+	text-align:center !important;
+}
+
+.tblreport_new tr th.white 
+{
+	background-color: #ffffff !important;	
+}
+.tblreport_new  tr th.right 
+{
+	text-align:right !important;	
+}
+.tblreport_new  tr td 
+{
+	background-color: #ffffff;
+	border: 1px solid #C0C0C0;
+	line-height:20px;
+	padding:5px;
+}
+.tblreport_new  tr td.blue 
+{
+	color:Blue !important;
+	font-size:14px !important;
+}
+
+.rptHead 
+{
+	height:50px;
+	font-size:14px;
+	font-family: Arial,Helvetica, sans-serif;
+	
+}
+.rptHead_new 
+{
+	height:50px;
+	font-size:14px;
+	font-family: Arial,Helvetica, sans-serif;
+	font-weight:bold;
+	margin-bottom:15px;
+	padding-bottom:15px;
+}
+.bgred
+{
+	background-color:Red;
+	color:#fff;
+}
+.table-custdtls
+{
+	 background-color: #ffffff ;
+	 width:1000px;
+	 border : solid 1px gray;
+}
+.table-custdtls tr td 
+{
+	padding: 0px 5px 0px 5px;
+	line-height:25px;
+	letter-spacing:1px;
+}
+.page-break	{ display: none; }
+
+
+/* for Ajax Calendar */
+.cal_Theme1 .ajax__calendar_container   {  
+    background-color: #e2e2e2;   
+    border:solid 1px #cccccc;  
+}  
+  
+.cal_Theme1 .ajax__calendar_header  {  
+    background-color: #ffffff;   
+    margin-bottom: 4px;  
+}  
+  
+.cal_Theme1 .ajax__calendar_title,  
+.cal_Theme1 .ajax__calendar_next,  
+.cal_Theme1 .ajax__calendar_prev    {  
+    color: #004080;   
+    padding-top: 3px;  
+}  
+  
+.cal_Theme1 .ajax__calendar_body    {  
+    background-color: #e9e9e9;   
+    border: solid 1px #cccccc;  
+}  
+  
+.cal_Theme1 .ajax__calendar_dayname {  
+    text-align:center;   
+    font-weight:bold;   
+    margin-bottom: 4px;   
+    margin-top: 2px;  
+}  
+  
+.cal_Theme1 .ajax__calendar_day {  
+    text-align:center;  
+}  
+  
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_day,  
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_month,  
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_year,  
+.cal_Theme1 .ajax__calendar_active  {  
+    color: #004080;   
+    font-weight: bold;   
+    background-color: #ffffff;  
+}  
+  
+.cal_Theme1 .ajax__calendar_today   {  
+    font-weight:bold;  
+}  
+  
+.cal_Theme1 .ajax__calendar_other,  
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_today,  
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_title {  
+    color: #bbbbbb;  
+}  
+
+.custSearch {
+	width:85%;
+	margin-left:30px;
+}
+
+#PanelDishonour {
+	page-break-after: always;
+}
+
+.panel{
+	margin-top:50px;
+}
+
+#RadioButtonList1
+{
+	border: 0px;
+    width: 100%;
+    height: 2em;
+	
+}
+.droplist_teller
+{
+	margin-top:15px;
+	margin-right:250px;
+	margin-bottom:20px;
+}
+.droplist_paymentcollection
+{
+	margin-top:20px;
+	margin-right:250px;
+	margin-bottom:20px;
+}
+.droplist_paymentPurpose
+{
+	
+	margin-right:250px;
+	margin-bottom:20px;
+}
+.checkbox_loan_debtor
+{
+	margin-left:8px;
+	margin-bottom:30px;
+	
+}
+.checkbox_loan_settlement
+{
+	margin-left:46px;
+	margin-bottom:20px;
+	
+}
+.droplist_updatetill
+{
+	margin-top:15px;
+	
+	margin-bottom:25px;
+	
+}
+.droplist_updatetill2
+{
+	margin-top:7px;
+	
+	margin-bottom:25px;
+	
+}
+.dllbranch
+{
+	margin-left:50px;	
+}

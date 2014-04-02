@@ -1,0 +1,49 @@
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Update_Till_old.aspx.vb" Inherits="Customer_Update_Safe" %>
+<%@ Register Src="~/toolbaar/tool_main.ascx"  TagName="Toolbaar1"   TagPrefix="tool1"%>
+<%@ Register Src="~/toolbaar/tool_bank.ascx" TagName="Toolbaar_Bank"   TagPrefix="tool_bank"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<title>Update Safe</title>
+     <%--   CSS used--%>
+<link rel="stylesheet" type="text/css" href="../css/style.css" /> 
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="align" >
+    <tool1:Toolbaar1 ID="tool_first" runat="server" />
+    <br />
+    <br />
+    <tool_bank:Toolbaar_Bank ID="t_bank" runat="server" /> 
+    <table class="table" align="center">
+    <tr><td>&nbsp;</td></tr>
+    <tr><td>&nbsp;</td></tr>
+    <tr>
+    <td class="align_width_less">&nbsp;</td>
+    <td><p style="text-align:left;font-family :Times New Roman ;font-size:16px;font-weight :bold;color: #800000;text-decoration:underline">Update Your Specific Till
+    <asp:TextBox ID="txtName" runat="server"></asp:TextBox></p></td>
+    <td class="align_width_less">&nbsp;</td>
+    <td class="align_width_less">&nbsp;</td>
+    </tr> 
+    <tr><td>&nbsp;</td></tr>
+    <tr><td style="text-align :right;font-family :Times New Roman ;font-size:16px;font-weight :bold ">Description:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td><asp:DropDownList ID="DropDownList1" runat="server">
+      <asp:ListItem></asp:ListItem>
+    <asp:ListItem>Cash brought from Safe to Abaz Teller Account</asp:ListItem>
+    <asp:ListItem>Cash returned to Safe from Abaz Teller Account</asp:ListItem>
+    <asp:ListItem>Amount deducted from Abaz Teller Account due to error</asp:ListItem>
+    <asp:ListItem>Amount added in Abaz Teller Account due to error</asp:ListItem>
+    <asp:ListItem>Cash brought from Safe to M/Plus Teller Account</asp:ListItem>
+    <asp:ListItem Value="Cash returned to Safe from M/Plus Teller Account">Cash returned to Safe to M/Plus Teller Account</asp:ListItem>
+    <asp:ListItem>Amount deducted from M/Plus Teller Account due to error</asp:ListItem>
+    <asp:ListItem>Amount added in M/Plus Teller Account due to error</asp:ListItem>
+    </asp:DropDownList></td></tr>
+    <tr><td>&nbsp;</td></tr>
+    <tr><td style="text-align :right;font-family :Times New Roman ;font-size:16px;font-weight :bold ">Enter amount:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td><asp:TextBox ID="txt_amt" runat="server" Width="80px" ></asp:TextBox></td></tr>
+    <tr><td>&nbsp;</td></tr>
+    <tr><td></td><td><asp:Button ID="btn_till" runat="server" text="Update Till" /></td></tr>
+    </table> 
+    </div>
+    </form>
+</body>
+</html>

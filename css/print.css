@@ -1,0 +1,138 @@
+﻿
+body {margin:0; padding:0; line-height: 1.4em; word-spacing:1px; letter-spacing:0.2px;
+       color: #000;  height: 842px;
+        width: 595px !important;
+        font-family:Arial;
+        font-size:12px !important;
+        }
+
+/*Header*/
+h2 {color:#000; font-size:25px;}
+.post .entry h2 {font-size:20px;}
+
+/* Links */
+a:link, a:visited {background: transparent; color:#333; text-decoration:none;}
+a:link[href^="http://"]:after, a[href^="http://"]:visited:after {content: " (" attr(href) ") "; font-size: 11px;}
+a[href^="http://"] {color:#000;} 
+
+/*Image*/
+img, img a, .more-link a {border:none;}
+
+/*Remove Element*/
+#logo, #catnavi, .topnavi, .more-link, .navigation, #sidebartop, #related, #social, #sponsors, .tabs, #allpost, .toolbar, .splitbox, #commentform, #commentabs .idTabs, .postmeta-content .comments, #respond h3, .tag, .footerlinks {display:none;}
+
+/*Post*/
+.post {border-bottom:1px solid #000;}
+.postmeta {font-size:10pt; margin-top:10px;}
+.postfooter {font-size:10pt; margin-bottom:20px;}
+
+/*Comment Section*/
+.commentlist .avatar {float:left; margin-right:10px;}
+.commentlist .children {margin-top:10px;}
+#comments {page-break-before: always;}
+
+/*Footer*/
+#footer {margin-top:10px;}
+p
+{
+	max-width:600px !important;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.printable 
+{
+	max-width:600px !important;
+	font-size:11px;
+}
+.gvreport 
+{
+	max-width:600px !important;
+	font-size:12px;
+	
+}
+.gvreport tr td
+{
+	padding-left:5px;
+}
+.tdborder
+{
+	border: solid 1px #000;
+	border-collapse:collapse;
+	margin:5px;
+}
+
+.tdborder table tr td 
+{
+	line-height:21px;
+	 font-size:12px !important;
+}
+.tbl-tr-inner 
+{
+	width:450px !important;
+	
+}
+.tbl-tr-inner  tr td
+{
+	text-align:right;
+	
+}
+table
+{
+	max-width:595px !important;
+}
+span
+{
+	font-size:12px !important;
+}
+gvreport tbody tr th
+{
+	font-size:12px !important;
+	font-weight:bold;
+	padding-left:5px !important;
+}
+
+
+.tblreport 
+{
+	border:solid 1px #C0C0C0;
+	border-collapse:collapse;
+	
+}
+.tblreport tr th 
+{
+	background-color: #EEEEEE;
+	border: 1px solid #C0C0C0;
+	line-height:18px;
+	padding:5px;
+	font-weight:bold;
+	font-size:12px !important;	
+}
+
+.tblreport tr th.center
+{
+	text-align:center !important;
+}
+
+.tblreport tr th.white 
+{
+	background-color: #ffffff !important;	
+}
+.tblreport  tr th.right 
+{
+	text-align:right !important;	
+}
+.tblreport  tr td 
+{
+	background-color: #ffffff;
+	border: 1px solid #C0C0C0;
+	
+	padding:5px;
+	font-size:12px !important;
+}
+h3
+{
+	font-size:14px !important;
+	font-weight:bold;
+}

@@ -1,0 +1,69 @@
+﻿Imports System.Data
+Imports System.Data.SqlClient
+Imports System.Net
+
+Partial Class Customer_Update_Safe
+    Inherits System.Web.UI.Page
+    Dim open_con As New Class1
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        If Me.IsPostBack = False Then
+
+        End If
+        If Session("user_name") = "" Then
+            Response.Redirect("https://moneyplus.com.au/application/login.aspx")
+        Else
+
+            If Session("user_type") = "Manager" Or Session("user_type") = "Admin" Then
+            Else
+                DropDownList1.Items(2).Enabled = False
+                DropDownList1.Items(3).Enabled = False
+                DropDownList1.Items(6).Enabled = False
+                DropDownList1.Items(7).Enabled = False
+
+            End If
+        End If
+    End Sub
+    Protected Sub btn_till_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btn_till.Click
+
+        Try
+            Dim cmd_till As New SqlCommand
+            cmd_till.CommandText = "Insert into Tbl_Cash_Balance(Branch_ID,Description,Amount,User_ID,User_Machine_ID,Date)values(@Branch_ID,@Description,@Amount,@User_ID,@User_Machine_ID,@Date)"
+            cmd_till.Parameters.Add("@Branch_ID", SqlDbType.Int).Value = open_con.branch_id_val
+            cmd_till.Parameters.Add("@Description", SqlDbType.VarChar, 255).Value = DropDownList1.SelectedItem.Value
+            cmd_till.Parameters.Add("@Amount", SqlDbType.VarChar, 255).Value = txt_amt.Text
+            cmd_till.Parameters.Add("@User_ID", SqlDbType.Int).Value = Session("user_id")
+            ' to check till name insert. - by Umesh Request.UserHostAddress '
+            ' cmd_till.Parameters.Add("@User_Machine_ID", SqlDbType.VarChar, 255).Value = Request.ServerVariables("REMOTE_ADDR")
+            'cmd_till.Parameters.Add("@User_Machine_ID", SqlDbType.VarChar, 255).Value = Dns.GetHostEntry(Request.ServerVariables("REMOTE_ADDR")).HostName()
+
+            cmd_till.Parameters.Add("@User_Machine_ID", SqlDbType.VarChar, 255).Value = Dns.GetHostEntry(Request.ServerVariables("REMOTE_ADDR")).AddressList             
+            'Dim nowip As String
+
+            'nowip = Request.ServerVariables("HTTP_X_FORWARDED_FOR")
+            'If nowip = "" Then
+            '    nowip = Request.ServerVariables("REMOTE_ADDR")
+            'End If
+            'txtName.Text = nowip
+
+            'Dim host As System.Net.IPHostEntry
+            'host = System.Net.Dns.GetHostEntry(HttpContext.Current.Request.UserHostName)
+            'cmd_till.Parameters.Add("@User_Machine_ID", SqlDbType.VarChar, 255).Value = host.HostName.ToString()
+
+            cmd_till.Parameters.Add("@Date", SqlDbType.Date).Value = System.DateTime.Now.Date
+            cmd_till.Connection = open_con.return_con
+            cmd_till.ExecuteNonQuery()
+            txt_amt.Text = ""
+            Page.ClientScript.RegisterStartupScript(Me.GetType(), "MyAlert", "alert('" & "Till has been updated!!!" & "');", True)
+            cmd_till.Dispose()
+            open_con.return_con.Dispose()
+            Dim s As String = ""
+            s = Dns.GetHostEntry(Request.ServerVariables("REMOTE_ADDR")).HostName()
+        Catch ex As Exception
+            Response.Write(ex.Message)
+        End Try
+    End Sub
+    Protected Overrides Sub Finalize()
+        open_con = Nothing
+        System.GC.Collect()
+    End Sub
+End Class
